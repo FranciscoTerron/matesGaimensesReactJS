@@ -1,6 +1,6 @@
 
 import './NavBar.css'
-import CartWidget from './CartWidget/CartWidget'
+import CartWidget from '../CartWidget/CartWidget'
 // Aca tengo el navbar renderizado de la app 
 
 export const NavBar = () => {
