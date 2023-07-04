@@ -1,4 +1,4 @@
-
+import { Link, NavLink } from 'react-router-dom'
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
 // Aca tengo el navbar renderizado de la app 
@@ -6,14 +6,20 @@ import CartWidget from '../CartWidget/CartWidget'
 export const NavBar = () => {
     return (
         <header>
-            <h1>Mates Gaimenses</h1>
+            <Link to="/">
+                <h1>El club del entrenamiento</h1>
+            </Link>
+            
 
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Mates</li>
-                    <li>Termos</li>
-                    <li>Bombillas</li>
+                    
+                    <li>
+                        <NavLink to="/categoria/2">Entrenamientos</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/categoria/3">Productos</NavLink>
+                    </li>
                 </ul>
 
 
