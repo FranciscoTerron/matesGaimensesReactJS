@@ -1,0 +1,12 @@
+#cartas{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 1px solid black;
+}
+
+#cartas img{
+    width: 500px;
+}
